@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b1018">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="AnimeGo untuk Android — jelajahi katalog anime, lanjutkan tontonan, gunakan floating player, dan simpan episode untuk ditonton offline.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AnimeGo — Anime, lebih praktis">
+  <meta property="og:description" content="Streaming, riwayat, favorit, dan unduhan dalam satu aplikasi Android.">
+  <meta property="og:image" content="assets/animego-icon.png">
+  <title>AnimeGo — Anime, lebih praktis</title>
+  <link rel="icon" type="image/png" href="assets/animego-icon.png">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="navbar">
+    <a class="brand" href="#home" aria-label="AnimeGo beranda">
+      <img src="assets/animego-icon.png" alt="" class="brand-icon">
+      <span>Anime<span class="brand-accent">Go</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#fitur">Fitur</a>
+      <a href="#preview">Preview</a>
+      <a href="#detail">Informasi APK</a>
+      <a class="nav-github" href="https://github.com/reyhanaarch64/animego" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Repository</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> APLIKASI ANDROID · APK</div>
+        <h1>Anime favorit.<br><span>Lebih praktis.</span></h1>
+        <p class="hero-description">Jelajahi katalog anime, lanjutkan tontonan, simpan episode untuk offline, dan gunakan floating player tanpa harus menetap di satu layar.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="animego.apk" data-download><i class="fa-solid fa-download"></i><span>Download APK</span><i class="fa-solid fa-arrow-down download-arrow"></i></a>
+          <a class="button button-secondary" href="#preview"><i class="fa-regular fa-images"></i> Lihat preview</a>
+        </div>
+        <div class="hero-footnote"><i class="fa-brands fa-android"></i><span>Android 6.0+ berdasarkan konfigurasi aplikasi</span><span class="footnote-divider"></span><span>File APK 382 KB</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Pratinjau tampilan AnimeGo">
+        <div class="visual-orbit orbit-a"></div><div class="visual-orbit orbit-b"></div>
+        <div class="floating-tag tag-top"><span class="tag-icon"><i class="fa-solid fa-play"></i></span><span><strong>Player fleksibel</strong><small>Lanjutkan kapan saja</small></span></div>
+        <div class="device-frame">
+          <div class="device-camera"></div>
+          <div class="device-screen">
+            <div class="mock-status"><span>9:41</span><span><i class="fa-solid fa-signal"></i> <i class="fa-solid fa-wifi"></i> <i class="fa-solid fa-battery-full"></i></span></div>
+            <div class="mock-appbar"><span class="mock-brand">AnimeGo</span><span class="mock-app-icons"><i class="fa-solid fa-sun"></i><i class="fa-solid fa-magnifying-glass"></i></span></div>
+            <div class="mock-greeting"><small>ANIMEGO</small><strong>Temukan tontonan<br>berikutnya.</strong><p>Streaming, riwayat, favorit, dan unduhan dalam satu tempat.</p></div>
+            <div class="mock-feature"><div class="mock-feature-art"><span class="art-sun"></span><span class="art-shape"></span><span class="art-glow"></span></div><div class="mock-feature-overlay"><small>PILIHAN ANIME</small><strong>Beyond the<br>Horizon</strong><span class="mock-detail-btn"><i class="fa-solid fa-circle-info"></i> Lihat detail</span></div></div>
+            <div class="mock-section-head"><strong>Lanjutkan menonton</strong><small>Riwayat</small></div>
+            <div class="mock-continue"><div class="mock-thumb thumb-one"><i class="fa-solid fa-play"></i></div><div class="mock-thumb thumb-two"><i class="fa-solid fa-play"></i></div><div class="mock-thumb thumb-three"><i class="fa-solid fa-play"></i></div></div>
+            <div class="mock-bottom"><span class="selected"><i class="fa-solid fa-house"></i><small>Beranda</small></span><span><i class="fa-solid fa-compass"></i><small>Jelajah</small></span><span><i class="fa-solid fa-download"></i><small>Offline</small></span><span><i class="fa-regular fa-clock"></i><small>Riwayat</small></span><span><i class="fa-regular fa-heart"></i><small>Favorit</small></span></div>
+          </div>
+        </div>
+        <div class="floating-tag tag-bottom"><span class="tag-icon tag-icon-blue"><i class="fa-solid fa-window-restore"></i></span><span><strong>Floating player</strong><small>Video tetap mengambang</small></span><span class="live-dot"></span></div>
+      </div>
+      <a class="scroll-cue" href="#fitur"><span></span> Gulir untuk melihat fitur</a>
+    </section>
+
+    <section class="quick-stats section-wrap" aria-label="Ringkasan AnimeGo">
+      <div class="stat"><span class="stat-icon"><i class="fa-solid fa-file-arrow-down"></i></span><span><strong>382 KB</strong><small>Ukuran APK</small></span></div>
+      <div class="stat"><span class="stat-icon"><i class="fa-brands fa-android"></i></span><span><strong>Android 6.0+</strong><small>Minimum sistem</small></span></div>
+      <div class="stat"><span class="stat-icon"><i class="fa-solid fa-cloud-arrow-down"></i></span><span><strong>Offline</strong><small>Unduhan episode</small></span></div>
+      <div class="stat"><span class="stat-icon"><i class="fa-solid fa-code-branch"></i></span><span><strong>Open source</strong><small>Kode di GitHub</small></span></div>
+    </section>
+
+    <section class="features section-wrap section-block" id="fitur">
+      <div class="section-heading"><div class="eyebrow">DIBUAT UNTUK MENONTON</div><h2>Yang bikin AnimeGo <span>praktis.</span></h2><p>Fitur inti disusun supaya aktivitas menonton dan mengelola episode bisa dilakukan dari satu aplikasi.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon"><i class="fa-solid fa-compass"></i></div><h3>Jelajahi katalog</h3><p>Temukan anime melalui halaman beranda, kategori jelajah, pencarian, dan detail judul.</p><span class="feature-index">01</span></article>
+        <article class="feature-card"><div class="feature-icon"><i class="fa-solid fa-display"></i></div><h3>Pemutar fleksibel</h3><p>Gunakan kontrol video, pencarian posisi, dan pengaturan kecepatan pemutaran.</p><span class="feature-index">02</span></article>
+        <article class="feature-card feature-highlight"><div class="feature-icon"><i class="fa-solid fa-window-restore"></i></div><h3>Floating player</h3><p>Tampilkan video dalam jendela mengambang di atas aplikasi lain setelah izin overlay diberikan.</p><span class="feature-index">03</span></article>
+        <article class="feature-card"><div class="feature-icon"><i class="fa-solid fa-cloud-arrow-down"></i></div><h3>Unduhan offline</h3><p>Kelola episode yang diunduh langsung dari halaman Offline. Data tersimpan memakai ruang perangkat.</p><span class="feature-index">04</span></article>
+        <article class="feature-card"><div class="feature-icon"><i class="fa-solid fa-clock-rotate-left"></i></div><h3>Riwayat tontonan</h3><p>Lihat aktivitas menonton dan kembali ke episode yang sebelumnya dibuka.</p><span class="feature-index">05</span></article>
+        <article class="feature-card"><div class="feature-icon"><i class="fa-solid fa-heart"></i></div><h3>Daftar favorit</h3><p>Simpan judul pilihan agar lebih mudah ditemukan lagi dari aplikasi.</p><span class="feature-index">06</span></article>
+      </div>
+    </section>
+
+    <section class="preview-section section-wrap section-block" id="preview">
+      <div class="section-heading heading-row"><div><div class="eyebrow">LIHAT TAMPILANNYA</div><h2>Sekilas di dalam <span>aplikasi.</span></h2><p>Preview tampilan AnimeGo untuk beberapa area utama aplikasi.</p></div><div class="gallery-hint"><i class="fa-solid fa-arrow-pointer"></i> Ketuk gambar untuk memperbesar</div></div>
+      <div class="preview-grid">
+        <button class="preview-card preview-large" data-preview="previews/home.svg" data-caption="Beranda AnimeGo"><img src="previews/home.svg" alt="Preview beranda AnimeGo" loading="lazy"><span class="preview-caption"><span><strong>Beranda</strong><small>Rekomendasi dan lanjutkan menonton</small></span><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span></button>
+        <button class="preview-card" data-preview="previews/detail.svg" data-caption="Detail anime"><img src="previews/detail.svg" alt="Preview detail anime" loading="lazy"><span class="preview-caption"><span><strong>Detail anime</strong><small>Informasi dan daftar episode</small></span><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span></button>
+        <button class="preview-card" data-preview="previews/player.svg" data-caption="Pemutar video biasa"><img src="previews/player.svg" alt="Preview pemutar video biasa" loading="lazy"><span class="preview-caption"><span><strong>Pemutar video</strong><small>Kontrol playback dan kecepatan</small></span><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span></button>
+        <button class="preview-card" data-preview="previews/popup.svg" data-caption="Floating popup player"><img src="previews/popup.svg" alt="Preview floating popup player" loading="lazy"><span class="preview-caption"><span><strong>Floating popup</strong><small>Jendela mengambang native</small></span><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span></button>
+        <button class="preview-card" data-preview="previews/offline.svg" data-caption="Unduhan offline"><img src="previews/offline.svg" alt="Preview halaman unduhan offline" loading="lazy"><span class="preview-caption"><span><strong>Unduhan offline</strong><small>Kelola video yang diunduh</small></span><i class="fa-solid fa-up-right-and-down-left-from-center"></i></span></button>
+      </div>
+      <p class="preview-note"><i class="fa-solid fa-circle-info"></i> Preview di halaman ini adalah ilustrasi antarmuka berdasarkan tema AnimeGo, bukan tangkapan layar langsung dari perangkat.</p>
+    </section>
+
+    <section class="download-section section-wrap section-block" id="download">
+      <div class="download-panel">
+        <div class="download-copy"><div class="eyebrow">MULAI DI ANDROID</div><h2>AnimeGo siap<br><span>dipasang.</span></h2><p>Unduh berkas APK dari halaman ini, lalu buka file di perangkat Android untuk memulai pemasangan.</p><div class="download-meta"><span><i class="fa-solid fa-file"></i> animego.apk</span><span><i class="fa-solid fa-weight-hanging"></i> 382 KB</span></div><a class="button button-primary button-download" href="animego.apk" data-download><i class="fa-solid fa-download"></i> Download AnimeGo <i class="fa-solid fa-arrow-right"></i></a><div class="download-status" id="downloadStatus" role="status" aria-live="polite"></div><small class="safe-note"><i class="fa-solid fa-shield-halved"></i> Instalasi APK dilakukan di luar Google Play. Pastikan sumber file tepercaya.</small></div>
+        <div class="download-art"><div class="download-ring ring-one"></div><div class="download-ring ring-two"></div><img src="assets/animego-icon.png" alt="Ikon AnimeGo"><div class="download-art-badge"><i class="fa-solid fa-check"></i> Android APK</div><div class="art-file"><i class="fa-brands fa-android"></i><span><strong>animego.apk</strong><small>382 KB · APK</small></span><i class="fa-solid fa-arrow-down-to-line"></i></div></div>
+      </div>
+    </section>
+
+    <section class="details section-wrap section-block" id="detail">
+      <div class="section-heading"><div class="eyebrow">RINGKASAN TEKNIS</div><h2>Informasi <span>APK.</span></h2><p>Spesifikasi yang diketahui dari konfigurasi aplikasi dan berkas distribusi.</p></div>
+      <div class="details-layout">
+        <div class="spec-grid">
+          <div class="spec-card"><span>Nama file</span><strong>animego.apk</strong><small>Nama file untuk tombol download</small></div>
+          <div class="spec-card"><span>Ukuran APK</span><strong>382 KB</strong><small>Ukuran file distribusi yang diinformasikan</small></div>
+          <div class="spec-card"><span>Minimum Android</span><strong>Android 6.0</strong><small>API level 23 · berdasarkan manifest</small></div>
+          <div class="spec-card"><span>Ukuran setelah dipasang</span><strong>Berubah-ubah</strong><small>Data, database, cache, dan video offline menambah penggunaan ruang</small></div>
+          <div class="spec-card"><span>Versi maksimum</span><strong>Tidak ditetapkan</strong><small>Manifest tidak membatasi Android maksimum</small></div>
+          <div class="spec-card"><span>Android 13+</span><strong>Belum diverifikasi</strong><small>Kompatibilitas pada versi tersebut belum dikonfirmasi</small></div>
+        </div>
+        <aside class="compat-card"><div class="compat-icon"><i class="fa-brands fa-android"></i></div><h3>Catatan kompatibilitas</h3><p>Manifest aplikasi menetapkan <code>minSdkVersion 23</code>, setara Android 6.0 Marshmallow. Tidak ada <code>maxSdkVersion</code> yang ditetapkan.</p><p>Ini bukan jaminan aplikasi pasti berjalan di seluruh versi Android yang lebih baru. Pengujian pada Android 13 dan versi setelahnya masih diperlukan.</p><div class="compat-divider"></div><span class="compat-label"><i class="fa-solid fa-circle-check"></i> Konfigurasi minimum diketahui</span><span class="compat-label compat-pending"><i class="fa-solid fa-circle-exclamation"></i> Versi terbaru belum diuji penuh</span></aside>
+      </div>
+    </section>
+
+    <section class="install-section section-wrap section-block" id="install">
+      <div class="section-heading"><div class="eyebrow">PANDUAN SINGKAT</div><h2>Cara memasang <span>APK.</span></h2><p>Langkah umum untuk memasang AnimeGo dari berkas APK.</p></div>
+      <div class="install-steps">
+        <article><span class="step-number">01</span><div><h3>Unduh file</h3><p>Tekan tombol Download AnimeGo dan tunggu sampai berkas selesai diunduh.</p></div><i class="fa-solid fa-download step-art"></i></article>
+        <article><span class="step-number">02</span><div><h3>Buka APK</h3><p>Buka file <code>animego.apk</code> dari notifikasi unduhan atau aplikasi File Manager.</p></div><i class="fa-regular fa-folder-open step-art"></i></article>
+        <article><span class="step-number">03</span><div><h3>Izinkan pemasangan</h3><p>Jika diminta, izinkan browser atau File Manager memasang aplikasi dari sumber ini, lalu lanjutkan instalasi.</p></div><i class="fa-solid fa-shield-halved step-art"></i></article>
+      </div>
+    </section>
+
+    <section class="author-section section-wrap section-block" id="author">
+      <div class="author-card"><div class="author-avatar"><img src="assets/animego-icon.png" alt="Ikon AnimeGo"></div><div class="author-copy"><div class="eyebrow">TENTANG PROYEK</div><h2>Dikembangkan sebagai proyek independen.</h2><p>AnimeGo adalah aplikasi Android yang berfokus pada penjelajahan katalog anime, pemutaran video, riwayat, favorit, dan pengelolaan unduhan offline. Proyek ini dikembangkan dan dipublikasikan melalui akun GitHub <strong>reyhanaarch64</strong>.</p><div class="author-actions"><a class="button button-secondary" href="https://github.com/reyhanaarch64/animego" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Lihat repository</a><a class="author-profile" href="https://github.com/reyhanaarch64" target="_blank" rel="noopener">Profil author <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div></div><div class="repo-stamp"><i class="fa-brands fa-github"></i><span>PROJECT REPOSITORY</span><strong>reyhanaarch64/<br>animego</strong><small>Source code</small></div></div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap"><a class="brand footer-brand" href="#home"><img src="assets/animego-icon.png" alt="" class="brand-icon"><span>Anime<span class="brand-accent">Go</span></span></a><p>Proyek independen untuk Android. Gunakan dan unduh dengan tanggung jawab.</p><div class="footer-links"><a href="#fitur">Fitur</a><a href="#preview">Preview</a><a href="#detail">Informasi APK</a><a href="https://github.com/reyhanaarch64/animego" target="_blank" rel="noopener">GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><div class="footer-bottom"><span>© <span id="year"></span> AnimeGo</span><span>Dibangun untuk GitHub Pages</span></div></footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" id="lightboxClose" aria-label="Tutup preview"><i class="fa-solid fa-xmark"></i></button><div class="lightbox-inner"><img id="lightboxImage" src="" alt=""><p id="lightboxCaption"></p></div></div>
+  <script src="assets/site.js"></script>
+</body>
+</html>
