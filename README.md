@@ -30,6 +30,6 @@ Alternatif: pakai repository khusus website dan taruh seluruh isi folder ini pad
 
 - HTML, CSS, dan JavaScript statis; tidak memerlukan build step atau backend.
 - Preview berjumlah lima: beranda, detail anime, pemutar video, floating popup, dan unduhan offline.
-- File preview SVG adalah **ilustrasi UI** berdasarkan tema aplikasi, bukan tangkapan layar langsung dari perangkat. Ganti file di folder `previews/` dengan screenshot asli kapan pun tersedia; pertahankan nama file atau ubah referensi di `index.html`.
+- File preview adalah screenshot asli aplikasi (JPG). Ganti file di folder `previews/` dengan screenshot asli kapan pun perlu; pertahankan nama file atau ubah referensi di `index.html`.
 - Ukuran APK 382 KB mengikuti informasi yang diberikan untuk halaman. Jika build berikutnya memiliki ukuran berbeda, ubah angka yang tampil di `index.html`.
 - Minimum Android ditampilkan sebagai Android 6.0 / API 23 berdasarkan `minSdkVersion 23` pada manifest aplikasi. Versi maksimum tidak ditetapkan; Android 13+ ditandai belum terverifikasi.
